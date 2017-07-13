@@ -1,0 +1,649 @@
+body {
+  background: #F2F2F2;
+}
+.main_information {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.main_information .information_rightbar {
+  width: 980px;
+  overflow: hidden;
+  background: #FFFFFF;
+  padding-left: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+.main_information .information_rightbar h4 {
+  font-size: 16px;
+  line-height: 50px;
+  color: #388BE8;
+}
+.main_information .information_rightbar ul {
+  width: 940px;
+  margin-left: 96px;
+  overflow: hidden;
+}
+.main_information .information_rightbar ul li {
+  width: 100%;
+  height: 28px;
+  margin-bottom: 20px;
+}
+.main_information .information_rightbar ul li p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 28px;
+  width: 80px;
+  float: left;
+  text-align: right;
+  white-space: nowrap;
+}
+.main_information .information_rightbar ul li span {
+  line-height: 28px;
+  margin-left: 12px;
+  float: left;
+}
+.main_information .information_rightbar ul li .inp_text {
+  width: 200px;
+  height: 26px;
+  border: 1px solid #CCCCCC;
+  margin-left: 12px;
+  outline: none;
+}
+.main_information .information_rightbar ul li .inp_text:focus {
+  border: 2px solid #8CAEE5;
+}
+.main_information .information_rightbar ul li .sex {
+  width: 200px;
+  height: 28px;
+  line-height: 28px;
+}
+.main_information .information_rightbar ul li .sex input {
+  margin: 0 5px 0 10px;
+  outline: none;
+}
+.main_information .information_rightbar ul li .detailed_address {
+  width: 350px;
+  height: 26px;
+  border: 1px solid #CCCCCC;
+  margin-left: 12px;
+  outline: none;
+}
+.main_information .information_rightbar ul li .detailed_address:focus {
+  border: 2px solid #8CAEE5;
+}
+.main_information .information_rightbar ul li .region {
+  width: 350px;
+  height: 26px;
+  line-height: 28px;
+  float: left;
+  margin-left: 12px;
+}
+.main_information .information_rightbar ul li .region select {
+  width: 80px;
+  height: 26px;
+  border: 1px solid #CCCCCC;
+  outline: none;
+}
+.main_information .information_rightbar ul .head_camera {
+  height: 88px;
+}
+.main_information .information_rightbar ul .head_camera p {
+  line-height: 88px;
+}
+.main_information .information_rightbar ul .head_camera div {
+  width: 86px;
+  height: 86px;
+  border: 1px solid #CCCCCC;
+  float: left;
+  margin-left: 12px;
+}
+.main_information .information_rightbar ul .head_camera div img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.main_information .information_rightbar ul .head_camera input {
+  display: none;
+}
+.main_information .information_rightbar button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background: #388BE8;
+  color: #FFFFFF;
+  margin-left: 180px;
+  margin-bottom: 130px;
+}
+.change_password {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.change_password .main_change {
+  width: 980px;
+  height: 700px;
+  background: #FFFFFF;
+  padding-left: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+.change_password .main_change h4 {
+  font-size: 16px;
+  line-height: 50px;
+  color: #388BE8;
+}
+.change_password .main_change ul {
+  width: 940px;
+  margin-left: 96px;
+  overflow: hidden;
+}
+.change_password .main_change ul li {
+  width: 100%;
+  height: 28px;
+  margin-bottom: 20px;
+}
+.change_password .main_change ul li p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 28px;
+  width: 80px;
+  float: left;
+  text-align: right;
+  white-space: nowrap;
+}
+.change_password .main_change ul li input {
+  width: 200px;
+  height: 26px;
+  border: 1px solid #CCCCCC;
+  margin-left: 12px;
+  outline: none;
+}
+.change_password .main_change ul li input:focus {
+  border: 2px solid #8CAEE5;
+}
+.change_password .main_change button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background: #388BE8;
+  color: #FFFFFF;
+  margin-left: 200px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.change_password .subordinate {
+  width: 980px;
+  min-height: 700px;
+  overflow: hidden;
+  background: #FFFFFF;
+  padding-left: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+.change_password .subordinate h4 {
+  font-size: 16px;
+  line-height: 50px;
+  color: #388BE8;
+}
+.change_password .subordinate .lower_level {
+  width: 800px;
+  margin: 0 auto;
+}
+.change_password .subordinate .lower_level .lower_level_top {
+  width: 460px;
+  overflow: hidden;
+  margin: 15px auto 30px;
+}
+.change_password .subordinate .lower_level .lower_level_top p {
+  float: left;
+  margin: 0 25px;
+  font-size: 14px;
+  color: #333333;
+}
+.change_password .subordinate .lower_level ul {
+  width: 800px;
+  height: auto;
+  overflow: hidden;
+}
+.change_password .subordinate .lower_level ul li {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-bottom: 1px solid #F6F6F6;
+}
+.change_password .subordinate .lower_level ul li:first-child {
+  background: #F5F5F5;
+  color: #999999;
+  border-bottom: none;
+}
+.change_password .subordinate .lower_level ul li p {
+  float: left;
+  width: 100px;
+  font-size: 12px;
+}
+.change_password .subordinate .lower_level ul li p a {
+  color: #388BE8;
+}
+.change_password .earnings {
+  width: 980px;
+  min-height: 700px;
+  overflow: hidden;
+  background: #FFFFFF;
+  padding-left: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+.change_password .earnings h4 {
+  font-size: 16px;
+  line-height: 50px;
+  color: #388BE8;
+}
+.change_password .earnings ul {
+  width: 840px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.change_password .earnings ul li {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-bottom: 1px solid #F6F6F6;
+}
+.change_password .earnings ul li:first-child {
+  background: #F5F5F5;
+  color: #999999;
+  border-bottom: none;
+}
+.change_password .earnings ul li p {
+  float: left;
+  width: 100px;
+  font-size: 12px;
+}
+.change_password .earnings ul li p a {
+  color: #388BE8;
+}
+.change_password .earnings ul li p:first-child {
+  width: 40px;
+}
+.change_password .product_list {
+  width: 980px;
+  min-height: 700px;
+  overflow: hidden;
+  background: #FFFFFF;
+  margin-left: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+.change_password .product_list h4 {
+  font-size: 16px;
+  line-height: 50px;
+  color: #388BE8;
+  text-indent: 20px;
+}
+.change_password .product_list .product_seek {
+  width: 400px;
+  height: 24px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.change_password .product_list .product_seek a {
+  padding: 0 10px;
+  line-height: 20px;
+  border: 1px solid #CCCCCC;
+  float: left;
+  border-radius: 2px;
+  margin: 2px 5px;
+  color: #333333;
+}
+.change_password .product_list .product_seek a:hover {
+  border: 1px solid #388BE8;
+  color: #388BE8;
+}
+.change_password .product_list .product_seek input {
+  width: 148px;
+  height: 22px;
+  border: 1px solid #CCCCCC;
+  border-radius: 2px;
+  float: left;
+  margin-left: 14px;
+  margin-right: 4px;
+}
+.change_password .product_list .product_seek button {
+  background: #F7F7F7;
+  border: 1px solid #CCCCCC;
+  color: #999999;
+  width: 40px;
+  height: 26px;
+  font-size: 12px;
+}
+.change_password .product_list .product_seek .active_style_a {
+  border: 1px solid #388BE8;
+  color: #388BE8;
+}
+.change_password .product_list ul {
+  width: 900px;
+  height: auto;
+  overflow: hidden;
+  margin: 18px auto 0;
+}
+.change_password .product_list ul li {
+  width: 100%;
+  height: 100px;
+  line-height: 30px;
+  text-align: center;
+  border-bottom: 1px solid #F6F6F6;
+}
+.change_password .product_list ul li:first-child {
+  background: #F5F5F5;
+  color: #999999;
+  border-bottom: none;
+  height: 30px;
+}
+.change_password .product_list ul li:first-child p {
+  float: left;
+  width: 100px;
+  font-size: 12px;
+}
+.change_password .product_list ul li:first-child p a {
+  color: #388BE8;
+}
+.change_password .product_list ul li div {
+  float: left;
+  width: 100px;
+  height: 100px;
+  font-size: 12px;
+  position: relative;
+}
+.change_password .product_list ul li div .product_img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 82px;
+  height: 82px;
+}
+.change_password .product_list ul li div .product_img img {
+  width: 100%;
+  height: 100%;
+}
+.change_password .product_list ul li div p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #333;
+  line-height: 18px;
+  width: 86%;
+  height: auto;
+}
+.change_password .product_list ul li div p a {
+  color: #333;
+  line-height: 24px;
+}
+/*推荐页面*/
+.recommend_main {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/背景.jpg) no-repeat center top;
+  background-size: 100% 100%;
+  position: relative;
+}
+.recommend_main .recommend {
+  width: 600px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.recommend_main .recommend h4 {
+  font-size: 16px;
+  line-height: 50px;
+  color: #388BE8;
+  text-indent: 20px;
+}
+.recommend_main .recommend .recommend_cont {
+  width: 460px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.recommend_main .recommend .recommend_cont .recommend_cont_top {
+  width: 460px;
+  overflow: hidden;
+  margin: 15px auto 30px;
+}
+.recommend_main .recommend .recommend_cont .recommend_cont_top p {
+  float: left;
+  margin: 0 25px;
+  font-size: 14px;
+  color: #333333;
+}
+.recommend_main .recommend .recommend_cont ul {
+  width: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-left: 55px;
+}
+.recommend_main .recommend .recommend_cont ul li {
+  height: 28px;
+  width: 100%;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+.recommend_main .recommend .recommend_cont ul li p {
+  width: 86px;
+  height: 28px;
+  float: left;
+  margin-right: 10px;
+  text-align: right;
+  color: #333;
+}
+.recommend_main .recommend .recommend_cont ul li input {
+  width: 198px;
+  height: 26px;
+  border: 1px solid #CCCCCC;
+  outline: none;
+}
+.recommend_main .recommend .recommend_cont ul li input:focus {
+  border: 2px solid #5699EB;
+}
+.recommend_main .recommend .recommend_cont button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background: #388BE8;
+  color: #FFFFFF;
+  margin-left: 180px;
+  margin-top: 40px;
+}
+.recommend_main .recommend .recommend_logo {
+  width: 110px;
+  height: 32px;
+  position: absolute;
+  right: 20px;
+  bottom: 24px;
+}
+.recommend_main .recommend .recommend_logo img {
+  width: 100%;
+  height: 100%;
+}
+/*商品列表遮罩层    编辑*/
+.product_shade_box {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  display: none;
+}
+.product_shade {
+  width: 790px;
+  height: 560px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.shade_head {
+  width: 100%;
+  height: 40px;
+  background: #F5F5F5;
+  line-height: 40px;
+}
+.shade_head p {
+  font-size: 14px;
+  color: #333333;
+  text-indent: 15px;
+  float: left;
+}
+.shade_head span {
+  padding: 4px;
+  height: 12px;
+  width: 12px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.shade_head span img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.shade_head span:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.product_shade_cont {
+  width: 700px;
+  height: auto;
+  overflow: hidden;
+  margin: 20px auto 0;
+}
+.product_shade_cont ul {
+  overflow: hidden;
+}
+.product_shade_cont li {
+  width: 50%;
+  height: 28px;
+  margin-bottom: 20px;
+  line-height: 26px;
+  float: left;
+}
+.product_shade_cont li p {
+  width: 100px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #333333;
+  text-align: right;
+  margin-right: 10px;
+  float: left;
+}
+.product_shade_cont li input {
+  width: 200px;
+  height: 26px;
+  border: 1px solid #CCCCCC;
+  line-height: 26px;
+  text-indent: 8px;
+}
+.product_shade_cont li .shade_radio {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+}
+.product_shade_cont .product_shade_img,
+.product_shade_cont .product_shade_add {
+  width: 100%;
+  height: 88px;
+}
+.product_shade_cont .product_shade_img p,
+.product_shade_cont .product_shade_add p {
+  line-height: 88px;
+}
+.product_shade_cont .product_shade_img div {
+  width: 86px;
+  height: 86px;
+  border: 1px solid #CCCCCC;
+  float: left;
+  cursor: pointer;
+}
+.product_shade_cont .product_shade_img textarea {
+  width: 360px;
+  height: 80px;
+  border: 1px solid #CCCCCC;
+}
+.product_shade_cont .product_shade_add textarea {
+  width: 360px;
+  height: 80px;
+  border: 1px solid #CCCCCC;
+}
+.product_shade_cont button {
+  width: 100px;
+  height: 30px;
+  display: block;
+  border: none;
+  background: #388BE8;
+  color: #FFFFFF;
+  margin: 40px auto 0;
+  cursor: pointer;
+}
+/*商品列表  遮罩层   删除*/
+.product_remove_box {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  display: none;
+}
+.product_remove {
+  width: 488px;
+  height: 200px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.product_remove .remove_text {
+  line-height: 100px;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+}
+.product_remove .remove_text span {
+  font-size: 12px;
+  line-height: 106px;
+}
+.product_remove .remove_btn {
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+}
+.product_remove .remove_btn button {
+  width: 80px;
+  height: 30px;
+  display: block;
+  border: none;
+  background: #388BE8;
+  color: #FFFFFF;
+  margin: 0 10px;
+  cursor: pointer;
+  float: left;
+}
+.product_remove .remove_btn button:nth-child(2) {
+  background: #F7F7F7;
+  border: 1px solid #ccc;
+  color: #333333;
+}
+/*# sourceMappingURL=f_baes.css.map */

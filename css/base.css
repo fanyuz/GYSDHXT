@@ -1,0 +1,135 @@
+/*用于内容详情CSS*/
+.upload{
+	width: 980px;
+  	overflow: hidden;
+  	margin-left: 20px;
+}
+.upload .upload-mian{
+	background-color: #fff;
+	padding: 20px 25px 60px 25px;
+	box-sizing: border-box;
+}
+.upload .upload-mian .upload-h4{
+	font:700 16px/16px "微软雅黑";
+	color: #000;
+	margin-bottom: 18px;
+}
+.upload .upload-input{
+/*	display:-webkit-flex;
+	display: flex;*/
+}
+.upload .upload-input .upload-itme{
+	width: 50%;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+	float: left;
+}
+.upload .itme-name{
+	display: inline-block;
+	width: 64px;
+	text-align: left;
+	font-size: 12px;
+	color: #333;
+	line-height: 40px;
+}
+.upload .upload-itme .itme-input{
+	padding: 9px 0;
+	width: 196px;
+	outline:medium;
+	text-indent: 1em;
+	color: #333;
+	border: 1px solid #ccc;
+}
+input:focus{
+	color:#999;
+}
+.upload .upload-radio{
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin-bottom: 30px;
+}
+.upload .upload-radio .itme-name{
+	display: inline-block;
+	width: 64px;
+	text-align: left;
+	font-size: 12px;
+	color: #333;
+	line-height: 40px;
+}
+.upload .upload-radio .itme-radio{
+	width: 15px;
+	height: 15px;
+	background-color:#fff ;
+	margin-top: -4px;
+}
+.upload .input-file{
+	width: 112px;
+	height: 126px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	outline:medium;
+}
+.upload .upload-file{
+	position: relative;
+	width: 112px;
+	height: 126px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+.upload .upload-psobox{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 112px;
+	height: 126px;
+	border: 1px solid #ccc;
+	z-index: 2;
+	background: #fff url(../img/add.png) center center no-repeat;
+}
+.upload .upload-img em{
+	display: inline-block;
+	font-size: 12px;
+	color: #999;
+	margin-top: 106px;
+	line-height: 20px;
+	
+}
+.m-b-30{
+	margin-bottom: 30px;
+}
+.itme-text{
+	width: 700px;
+	height: 126px;
+	outline:medium;
+	margin-left: 5px;
+	border: 1px solid #ccc;
+}
+.upload .upload-submit{
+	width: 200px;
+	margin: 0 auto;
+}
+.upload-submit .itme-submit,.upload-submit .itme-remove{
+	width: 68px;
+	height: 28px;
+	line-height: 26px;
+	outline:medium;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+	box-sizing: border-box;
+	background: #e6e6e6;
+}
+.upload-notes{
+	width: 100%;
+	height: 60px;
+	background-color: #e6e6e6;
+	text-align: center;
+}
+.upload-notes p{
+	font-size: 12px;
+	line-height: 60px;
+	color: #333;
+}

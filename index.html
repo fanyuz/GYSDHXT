@@ -2,9 +2,13 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="renderer" content="webkit">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/index.js"></script>
 	</head>
 	<body>
 		<!--header 部分-->
@@ -25,18 +29,17 @@
 		<!--content 部分-->
 		<div class="content_home">
 			<div class="content_leftbar fl">
+				<h4>账号管理</h4>
 				<ul>
-					<h4>账号管理</h4>
-					<li class="active_style"><a href="">个人信息</a></li>
-					<li><a href="">完善资料</a></li>
+					<li class="active_style"><a href="index.html">个人信息</a></li>
+					<li><a href="完善资料.html">完善资料</a></li>
 					<li><a href="">修改密码</a></li>
 					<li><a href="">下级查询</a></li>
 					<li><a href="">收益查询</a></li>
 				</ul>
+				<h4>商品管理</h4>
 				<ul>
-					<h4>商家管理</h4>
-					<li><a href="">商家展示</a></li>
-					<li><a href="">商品展示</a></li>
+					
 					<li><a href="">上传商品</a></li>
 					<li><a href="">商品列表</a></li>
 				</ul>
@@ -57,7 +60,7 @@
 						<li>
 							<p>余额</p>
 							<span>1000</span>
-							<a href="" class="border_a">提现</a>
+							<a href="javascript:;" class="border_a" id="withdraw_deposit">提现</a>
 						</li>
 						<li>
 							<p>已提现</p>
@@ -69,27 +72,107 @@
 				<div class="grxinxi">
 					<h4>个人信息</h4>
 					<ul>
-						<li>姓名：<span>皮皮虾</span></li>
-						<li>性别：<span>男</span></li>
-						<li>地区：<span>北京朝阳</span></li>
-						<li>地址：<span>朝阳南路</span></li>
+						<li><p>姓名：</p><span>皮皮虾</span></li>
+						<li><p>性别：</p><span>男</span></li>
+						<li><p>所属行业：</p><span>呵呵哒</span></li>
+						
 					</ul>
 					<ul>
-						<li>等级：<span>总经理</span></li>
-						<li>推介人：<span>马冬梅</span></li>
+						<li><p>等级：</p><span>总经理</span></li>
+						<li><p>地区：</p><span>北京朝阳</span></li>
 						
+					</ul>
+					<ul>
+						<li><p>推介人：</p><span>马冬梅</span></li>
+						<li><p>地址：</p><span>朝阳南路</span></li>
 					</ul>
 				</div>
-				<div class="grxinxi">
+				<div class="record">
 					<h4>提现记录</h4>
-					<ul>
-						<li>姓名：<span>皮皮虾</span></li>
+					<table>
+						<tr>
+							<th>开户银行</th>
+							<th>收款账号</th>
+							<th>金额/&yen;</th>
+							<th>时间</th>
+							
+						</tr>
+						<tr>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
+						</tr>
 						
-					</ul>
+						
+					</table>
+				
 					
 				</div>
 			</div>
 		</div>
 		<!--content end-->
+		<!--shade 遮罩层-->
+		<div class="shade_box shade_toggle">
+			<div class="shade">
+				<div class="shade_head">
+					<p>提现</p>
+					<span id="shade_span_end"><img src="img/icon_end.png"/></span>
+				</div>
+				<div class="shade_cont">
+					<ul>
+						<li>
+							<p>交易编号：</p>
+							<span>20170645413233</span>
+						</li>
+						<li class="head_camera">
+							<p>收款人：</p>
+							<span>马冬梅</span>
+						</li>
+						<li>
+							<p>账户余额：</p>
+							<span>&yen;250</span>
+						</li>
+						<li>
+							<p>所在地区：</p>
+							<span>火星</span>
+						</li>
+						<li>
+							<p>开户银行：</p>
+							<input type="text" class="shade_inp"/>
+						</li>
+						<li class="margin_t">
+							<p>收款账号：</p>
+							<input type="text" class="shade_inp"/>
+						</li>
+						<li>
+							<p>可提现金：</p>
+							<span>&yen;250</span>
+						</li>
+						<li>
+							<p>需提现金：</p>
+							<input type="text" class="shade_inp"/>
+						</li>
+						<li>
+							<p>手续费：</p>
+							<span>&yen;250</span>
+						</li>
+						<li>
+							<p>国家税金：</p>
+							<span>&yen;250</span>
+						</li>
+						<li>
+							<p>个人所得税：</p>
+							<span>&yen;250</span>
+						</li>
+						<li>
+							<p>到账时间：</p>
+							<span>两到三个工作日</span>
+						</li>
+					</ul>
+					<button>提交</button>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/f_baes.css"/>
+		
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/public.js"></script>
+	</head>
+	<body>
+		<iframe src="header.html" width="100%" height=""></iframe>
+		<div class="main_information">
+			<div class="content_leftbar fl">
+				<div>
+					<h4>账号管理</h4>
+					<ul>
+						<li><a href="index.html">个人信息</a></li>
+						<li class="active_style"><a href="">完善资料</a></li>
+						<li><a href="">修改密码</a></li>
+						<li><a href="">下级查询</a></li>
+						<li><a href="">收益查询</a></li>
+					</ul>
+				</div>
+				<div>
+					<h4>商家管理</h4>
+					<ul>				
+						<li><a href="">商家展示</a></li>
+						<li><a href="">商品展示</a></li>
+						<li><a href="upload上传商品.html" target="_top">上传商品</a></li>
+						<li><a href="">商品列表</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="information_rightbar fr">
+				<h4>完善资料</h4>
+				<ul>
+					<li>
+						<p>ID：</p>
+						<span>1846461313</span>
+					</li>
+					<li>
+						<p>姓名：</p>
+						<span>马冬梅</span>
+					</li>
+					<li class="head_camera">
+						<p>头像：</p>
+						<div>
+							<img src="img/camera.jpg" alt="" class="head_picture"/>
+						</div>
+						<input type="file" id="head_file"/>
+					</li>
+					<li>
+						<p>身份证号：</p>
+						<input type="text" class="inp_text" />
+					</li>
+					<li>
+						<p>银行卡号：</p>
+						<input type="text" class="inp_text" />
+					</li>
+					<li>
+						<p>性别：</p>
+						<div class="sex">
+							<input type="radio" name="sex" /><i>男</i>
+							<input type="radio" name="sex" /><i>女</i>
+						</div>
+					</li>
+					<li>
+						<p>所在地区：</p>
+						<div class="region">
+							<form action="info/type/add" method="post" id='info' style="margin:0px;" target="submitObj">
+								<select id="sheng" name="province">
+									
+								</select>
+							
+								<select id="shi" name="city">
+							
+								</select>
+							
+								<select id="xian" name="country">
+							
+								</select>
+							
+								<select id="xiang" name="street">
+							
+								</select>
+							
+							</form>
+						</div>
+					</li>
+					<li>
+						<p>详细地址：</p>
+						<input type="text" class="detailed_address"/>
+					</li>
+					
+				</ul>
+				<button>保存</button>
+			</div>
+		</div>
+		
+	</body>
+</html>
